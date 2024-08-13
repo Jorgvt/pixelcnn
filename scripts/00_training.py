@@ -60,7 +60,7 @@ wandb.init(project="PixelCNN",
            name="Gated",
            config=dict(config),
            mode="online",
-           job_type="disabled",
+           job_type="training",
            )
 config = wandb.config
 
